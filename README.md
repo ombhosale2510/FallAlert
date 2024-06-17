@@ -1,7 +1,9 @@
-FallAlert
+#FallAlert#
+
 FallAlert is a mobile application that provides real-time fall detection and emergency assistance for elderly individuals and workers in hazardous environments.
 
-Getting Started
+Getting Started:
+
 Prerequisites
 Android Studio
 An Android device or emulator
