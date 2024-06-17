@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Box for displaying accelerometer and gyroscope data -->
+    <TextView
+        android:id="@+id/sensorDataBox"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="16dp"
+        android:background="#333333"
+        android:gravity="left"
+        android:text="Sensor Data"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:padding="16dp"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnCallCaregiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL CAREGIVER"
+        android:layout_below="@id/sensorDataBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnCallEmergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL EMERGENCY"
+        android:layout_below="@id/btnCallCaregiver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSetup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETUP"
+        android:layout_below="@id/btnCallEmergency"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

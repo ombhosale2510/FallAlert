@@ -1,0 +1,9 @@
+. Layout (activity_main.xml):
+        Added a TextView (sensorDataBox) to display the accelerometer and gyroscope data.
+        Placed three buttons (CALL CAREGIVER, CALL EMERGENCY, SETUP) vertically below the sensor data box.
+
+. MainActivity.java:
+
+        Implemented SensorEventListener to listen for accelerometer and gyroscope data.
+        Registered the sensors in onCreate and updated the sensorDataBox with real-time sensor data in the onSensorChanged method.
+        Implemented the button click listeners to handle navigation and future functionalities.
