@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FallAlert"
+rootProject.name = "FallAlertNN"
 include(":app")
  

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.fallalert"
+    namespace = "engg6400.project.fallalertnn"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.fallalert"
+        applicationId = "engg6400.project.fallalertnn"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -19,10 +19,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
     compileOptions {
@@ -40,4 +37,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("org.tensorflow:tensorflow-lite:2.11.0")
 }
