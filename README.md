@@ -14,7 +14,7 @@ Installation
 Clone the repository:
 * bash
 Copy code
-git clone [[https://github.com/yourusername/fallalert.git](https://github.com/ombhosale2510/FallAlert.git)](https://github.com/ombhosale2510/FallAlert.git)
+git clone [https://github.com/ombhosale2510/FallAlert.git](https://github.com/ombhosale2510/FallAlert.git)
 
 Open the project in Android Studio:
 ----
